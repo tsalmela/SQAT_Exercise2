@@ -27,3 +27,6 @@ UnitTestCaseAction 1476877616261 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877616262 TestPlanetExplorer.java FAIL
 RefactoringAction 1476877791503 PlanetExplorer.java ADD import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array IMPORT
 EditAction 1476877917082 PlanetExplorer.java 1518 2 3 0
+UnitTestCaseAction 1476877917379 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877917380 TestPlanetExplorer.java FAIL
+EditAction 1476877927083 PlanetExplorer.java 1518 2 3 0

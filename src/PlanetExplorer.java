@@ -34,7 +34,7 @@ public class PlanetExplorer {
 		
 		String[] array = command.split("");
 		
-		System.out.println("eka: " + array[0]);
+		System.out.println("eka: " + array[1]);
 		 
 		
 		return null;
