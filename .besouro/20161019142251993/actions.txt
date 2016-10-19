@@ -61,3 +61,10 @@ UnitTestSessionAction 1476879620472 TestPlanetExplorer.java OK
 RefactoringAction 1476879804041 PlanetExplorer.java ADD void fixPosition() METHOD
 RefactoringAction 1476879810569 PlanetExplorer.java RENAME fixPosition()=>void fixPositionOverBoard() METHOD
 EditAction 1476879913388 PlanetExplorer.java 3332 7 18 0
+UnitTestCaseAction 1476879913683 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476879913683 TestPlanetExplorer.java OK
+UnitTestCaseAction 1476880253812 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880253813 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476880266366 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880266367 TestPlanetExplorer.java FAIL
+EditAction 1476880314292 TestPlanetExplorer.java 401 1 4 1
