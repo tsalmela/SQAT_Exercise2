@@ -18,8 +18,8 @@ public class PlanetExplorer {
 		 
 	 */
 		
-		//String[] obstaclesArray = obstacles.split(")");
-		//System.out.println("obstacles: " + obstaclesArray);
+		String[] obstaclesArray = obstacles.split(")");
+		System.out.println("obstacles: " + obstaclesArray);
 	}
 	
 	public String executeCommand(String command){
