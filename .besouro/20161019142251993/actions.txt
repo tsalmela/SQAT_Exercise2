@@ -8,3 +8,7 @@ EditAction 1476877047436 PlanetExplorer.java 1298 2 1 0
 UnitTestCaseAction 1476877048477 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877048478 PlanetExplorer.java FAIL
 EditAction 1476877085496 TestPlanetExplorer.java 403 1 4 1
+UnitTestCaseAction 1476877085775 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877085775 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877239731 PlanetExplorer.java ADD import java.util.Arrays IMPORT
+EditAction 1476877260596 PlanetExplorer.java 1411 2 3 0
