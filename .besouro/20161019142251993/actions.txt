@@ -18,3 +18,8 @@ EditAction 1476877291175 PlanetExplorer.java 1450 2 4 0
 UnitTestCaseAction 1476877291478 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877291478 TestPlanetExplorer.java FAIL
 EditAction 1476877305942 PlanetExplorer.java 1450 2 4 0
+UnitTestCaseAction 1476877306232 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877306232 TestPlanetExplorer.java FAIL
+RefactoringAction 1476877343170 PlanetExplorer.java ADD import com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern IMPORT
+RefactoringAction 1476877381463 PlanetExplorer.java REMOVE import com.sun.org.apache.xalan.internal.xsltc.compiler.Pattern IMPORT
+EditAction 1476877615970 PlanetExplorer.java 1528 2 5 0

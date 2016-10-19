@@ -17,6 +17,7 @@ public class PlanetExplorer {
 	 */
 	}
 	
+	@SuppressWarnings("null")
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
@@ -29,9 +30,14 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		String[] array = command.split(",");
-		System.out.println(Arrays.toString(array));
-		System.out.println("1:" + array[1]);
+		int length = command.length();
+		char[] array = null;
+		for(int i=0; i < length; i++){
+			array[i] = command.charAt(i);
+		}
+		
+		System.out.println("eka: " + array[0]);
+		 
 		
 		return null;
 	}
