@@ -44,3 +44,6 @@ RefactoringAction 1476878429850 PlanetExplorer.java RENAME position=>int pos_x F
 CompilationAction 1476879021485 PlanetExplorer.java
 RefactoringAction 1476879075916 PlanetExplorer.java ADD void backward() METHOD
 EditAction 1476879292864 PlanetExplorer.java 2433 6 10 0
+UnitTestCaseAction 1476879293192 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476879293192 TestPlanetExplorer.java FAIL
+EditAction 1476879361097 PlanetExplorer.java 2461 6 10 0

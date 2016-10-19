@@ -57,8 +57,9 @@ public class PlanetExplorer {
 		 
 		String palautus = Integer.toString(pos_x);
 		palautus += Integer.toString(pos_y);
-		System.out.println("palautus:" + palautus);
-		return null;
+		palautus += facing;
+		//System.out.println("palautus:" + palautus);
+		return palautus;
 	}
 	
 	public void turnLeft(){
