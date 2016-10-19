@@ -31,6 +31,7 @@ public class PlanetExplorer {
 		
 		String[] array = command.split(",");
 		System.out.println(Arrays.toString(array));
+		System.out.println("1:" + array[0]);
 		
 		return null;
 	}
