@@ -17,9 +17,8 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		String esteet = obstacles.replaceAll(".*\\(|\\).*|,", "");
-		//String[] obstaclesArray = obstacles.split("\\)");
-		System.out.println("obstacles: " + esteet);
+
+		System.out.println("obstacles: " + obstacles);
 	}
 	
 	public String executeCommand(String command){
