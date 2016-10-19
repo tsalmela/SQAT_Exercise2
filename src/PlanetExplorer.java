@@ -8,6 +8,8 @@ import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 public class PlanetExplorer {
 	String facing = "NORTH";
+	int pos_x = 0;
+	int pos_y = 0;
 	
 	public PlanetExplorer(int x, int y, String obstacles){
 	/*	x and y represent the size of the grid.
@@ -34,9 +36,61 @@ public class PlanetExplorer {
 		
 		String[] array = command.split("");
 		
-		System.out.println("eka: " + array[1]);
+		for(int i=0; i<command.length(); i++){
+			String a = array[i];
+			
+			switch (a) {
+			case "l":
+				turnLeft();
+				break;
+			case "r":
+				turnRight();
+				break;
+			case "f":
+				forward();
+				break;
+			case "b":
+				backward();
+				break;
+			}
+		}
 		 
-		
+		String palautus = Integer.toString(pos_x);
+		palautus += Integer.toString(pos_y);
+		System.out.println("palautus:" + palautus);
 		return null;
+	}
+	
+	public void turnLeft(){
+		facing = "LEFT";
+	}
+	
+	public void turnRight(){
+		facing = "RIGHT";
+	}
+	
+	public void forward(){
+		//Fix what happens if you go over border
+		if(facing == "NORTH"){
+			pos_y++;
+		} else if(facing == "EAST"){
+			pos_x++;
+		} else if(facing == "SOUTH"){
+			pos_y--;
+		} else if(facing == "WEST"){
+			pos_x--;
+		}
+	}
+	
+	public void backward(){
+		if(facing == "NORTH"){
+			pos_y--;
+		} else if(facing == "EAST"){
+			pos_x--;
+		} else if(facing == "SOUTH"){
+			pos_y++;
+		} else if(facing == "WEST"){
+			pos_x++;
+		}
 	}
 }

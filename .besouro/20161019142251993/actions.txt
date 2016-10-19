@@ -30,3 +30,17 @@ EditAction 1476877917082 PlanetExplorer.java 1518 2 3 0
 UnitTestCaseAction 1476877917379 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476877917380 TestPlanetExplorer.java FAIL
 EditAction 1476877927083 PlanetExplorer.java 1518 2 3 0
+UnitTestCaseAction 1476877927376 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476877927377 TestPlanetExplorer.java FAIL
+FileOpenedAction 1476878179208 RomanNumerals.java 4695 7 27 0
+RefactoringAction 1476878236779 PlanetExplorer.java ADD void turnLeft() METHOD
+RefactoringAction 1476878273419 PlanetExplorer.java ADD void turnLeft()/2 METHOD
+RefactoringAction 1476878276434 PlanetExplorer.java RENAME turnLeft()/2=>void turnRight() METHOD
+RefactoringAction 1476878366263 PlanetExplorer.java ADD void turnLeft()/2 METHOD
+RefactoringAction 1476878369279 PlanetExplorer.java RENAME turnLeft()/2=>void f() METHOD
+RefactoringAction 1476878370293 PlanetExplorer.java RENAME f()=>void forward() METHOD
+RefactoringAction 1476878405828 PlanetExplorer.java ADD String position FIELD
+RefactoringAction 1476878429850 PlanetExplorer.java RENAME position=>int pos_x FIELD
+CompilationAction 1476879021485 PlanetExplorer.java
+RefactoringAction 1476879075916 PlanetExplorer.java ADD void backward() METHOD
+EditAction 1476879292864 PlanetExplorer.java 2433 6 10 0
