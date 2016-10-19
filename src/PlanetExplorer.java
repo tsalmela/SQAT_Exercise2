@@ -1,5 +1,7 @@
 import java.util.Arrays;
 
+import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
+
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
 // Finish time:
@@ -30,11 +32,7 @@ public class PlanetExplorer {
 		 * The return string should also contain a list of coordinates of the encountered obstacles. No white spaces.
 		 */
 		
-		int length = command.length();
-		char[] array = null;
-		for(int i=0; i < length; i++){
-			array[i] = command.charAt(i);
-		}
+		String[] array = command.split("");
 		
 		System.out.println("eka: " + array[0]);
 		 
