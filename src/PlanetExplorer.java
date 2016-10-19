@@ -94,24 +94,44 @@ public class PlanetExplorer {
 		//Fix what happens if you go over border
 		if(facing == "NORTH"){
 			pos_y++;
+			fixPositionOverBoard();
 		} else if(facing == "EAST"){
 			pos_x++;
+			fixPositionOverBoard();
 		} else if(facing == "SOUTH"){
 			pos_y--;
+			fixPositionOverBoard();
 		} else if(facing == "WEST"){
 			pos_x--;
+			fixPositionOverBoard();
 		}
 	}
 	
 	public void backward(){
 		if(facing == "NORTH"){
 			pos_y--;
+			fixPositionOverBoard();
 		} else if(facing == "EAST"){
 			pos_x--;
+			fixPositionOverBoard();
 		} else if(facing == "SOUTH"){
 			pos_y++;
+			fixPositionOverBoard();
 		} else if(facing == "WEST"){
 			pos_x++;
+			fixPositionOverBoard();
 		}
+	}
+	
+	public void fixPositionOverBoard(){
+		if(pos_y > 100) 
+			pos_y = pos_y - 100;
+		if(pos_y < 0)
+			pos_y = 100 - pos_y;
+		
+		if(pos_x > 100)
+			pos_x = pos_x - 100;
+		if(pos_x < 0) 
+			pos_x = 100 - pos_x;
 	}
 }
