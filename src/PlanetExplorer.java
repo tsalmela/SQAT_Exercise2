@@ -18,7 +18,7 @@ public class PlanetExplorer {
 		 
 	 */
 		
-		String[] obstaclesArray = obstacles.split(")");
+		String[] obstaclesArray = obstacles.split("\\)");
 		System.out.println("obstacles: " + obstaclesArray[0]);
 	}
 	
