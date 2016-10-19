@@ -18,9 +18,6 @@ public class PlanetExplorer {
 		 
 	 */
 		int obstacleCount = obstacles.length() - obstacles.replace(")", "").length();
-		obstacles.replaceAll(")", "|");
-		obstacles.replaceAll("//(", "");
-		obstacles.replaceAll(",", " ");
 		System.out.println("obstacles: "  + obstacleCount);
 		int [][] array = new int [obstacleCount][2];
 		int firstLetterPlace = 2;
