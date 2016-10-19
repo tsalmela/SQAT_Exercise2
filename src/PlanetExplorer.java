@@ -62,7 +62,7 @@ public class PlanetExplorer {
 		palautus += ",";
 		palautus += facing;
 		palautus += ")";
-		//System.out.println("palautus:" + palautus);
+		System.out.println("palautus:" + palautus);
 		return palautus;
 	}
 	
