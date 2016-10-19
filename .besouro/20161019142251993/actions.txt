@@ -68,3 +68,13 @@ UnitTestSessionAction 1476880253813 TestPlanetExplorer.java FAIL
 UnitTestCaseAction 1476880266366 TestPlanetExplorer.java FAIL
 UnitTestSessionAction 1476880266367 TestPlanetExplorer.java FAIL
 EditAction 1476880314292 TestPlanetExplorer.java 401 1 4 1
+UnitTestCaseAction 1476880314559 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880314559 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476880331761 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880331762 TestPlanetExplorer.java FAIL
+RefactoringAction 1476880340549 PlanetExplorer.java REMOVE import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array IMPORT
+UnitTestCaseAction 1476880356457 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880356457 TestPlanetExplorer.java FAIL
+UnitTestCaseAction 1476880400717 TestPlanetExplorer.java FAIL
+UnitTestSessionAction 1476880400717 PlanetExplorer.java FAIL
+EditAction 1476880413763 PlanetExplorer.java 3314 7 18 0

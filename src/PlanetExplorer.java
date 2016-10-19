@@ -1,6 +1,4 @@
-import java.util.Arrays;
 
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader.Array;
 
 // Before submitting write your ID and finish time here. Your ID is written on project description sheets.
 // ID:
@@ -20,11 +18,10 @@ public class PlanetExplorer {
 		 
 	 */
 		
-		String[] obstaclesArray = obstacles.split(")");
-		System.out.println("obstacles: " + obstaclesArray);
+		//String[] obstaclesArray = obstacles.split(")");
+		//System.out.println("obstacles: " + obstaclesArray);
 	}
 	
-	@SuppressWarnings("null")
 	public String executeCommand(String command){
 		
 		/* The command string is composed of "f" (forward), "b" (backward), "l" (left) and "r" (right)
