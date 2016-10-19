@@ -55,11 +55,13 @@ public class PlanetExplorer {
 			}
 		}
 		 
-		String palautus = Integer.toString(pos_x);
+		String palautus = "("; 
+		palautus += Integer.toString(pos_x);
 		palautus += ",";
 		palautus += Integer.toString(pos_y);
 		palautus += ",";
 		palautus += facing;
+		palautus += ")";
 		//System.out.println("palautus:" + palautus);
 		return palautus;
 	}
