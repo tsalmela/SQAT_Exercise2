@@ -19,6 +19,14 @@ public class PlanetExplorer {
 	 */
 		int obstacleCount = obstacles.length() - obstacles.replace(")", "").length();
 		System.out.println("obstacles: "  + obstacleCount);
+		int [][] array = new int [obstacleCount][2];
+		int firstLetterPlace = 2;
+		int secondLetterPlace = 4;
+		for(int i=0; i<obstacleCount; i++){
+			array[i][0] = (int)obstacles.charAt(firstLetterPlace);
+			array[i][1] = (int)obstacles.charAt(secondLetterPlace);
+			//firstLetterPlace += 
+		}
 		
 	}
 	
