@@ -65,11 +65,27 @@ public class PlanetExplorer {
 	}
 	
 	public void turnLeft(){
-		facing = "LEFT";
+		if(facing == "NORTH"){
+			facing = "WEST";
+		}else if(facing == "EAST"){
+			facing = "NORTH";
+		}else if(facing == "SOUTH"){
+			facing = "EAST";
+		} else if(facing == "WEST"){
+			facing = "SOUTH";
+		}
 	}
 	
 	public void turnRight(){
-		facing = "RIGHT";
+		if(facing == "NORTH"){
+			facing = "EAST";
+		}else if(facing == "EAST"){
+			facing = "SOUTH";
+		}else if(facing == "SOUTH"){
+			facing = "WEST";
+		} else if(facing == "WEST"){
+			facing = "NORTH";
+		}
 	}
 	
 	public void forward(){
