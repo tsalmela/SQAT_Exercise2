@@ -1,0 +1,6 @@
+FileOpenedAction 1476876172206 PlanetExplorer.java 1270 2 1 0
+FileOpenedAction 1476876252285 TestPlanetExplorer.java 174 1 1 0
+FileOpenedAction 1476876419307 PlanetExplorerException.java 61 0 0 0
+RefactoringAction 1476876526686 PlanetExplorer.java ADD String facing FIELD
+FileOpenedAction 1476876561489 TestRomanNumerals.java 1862 8 28 3
+EditAction 1476877047265 TestPlanetExplorer.java 396 1 4 1
