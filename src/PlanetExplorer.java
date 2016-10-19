@@ -17,9 +17,9 @@ public class PlanetExplorer {
 		PlanetExplorer explorer = new PlanetExplorer(100,100,"(5,5)(7,8)")  
 		 
 	 */
-		int obstacleCount = obstacles.length() - obstacles.replace("//)", "").length();
-		System.out.println("obstacles: " + obstacles);
-		int[][2] obstacleArray =  
+		int obstacleCount = obstacles.length() - obstacles.replace(")", "").length();
+		System.out.println("obstacles: "  + obstacleCount);
+		
 	}
 	
 	public String executeCommand(String command){

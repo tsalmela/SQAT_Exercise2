@@ -124,3 +124,8 @@ UnitTestCaseAction 1476881299588 TestPlanetExplorer.java OK
 UnitTestSessionAction 1476881299588 PlanetExplorer.java OK
 RefactoringAction 1476881694120 PlanetExplorer.java ADD import com.sun.xml.internal.ws.util.StringUtils IMPORT
 EditAction 1476881786614 PlanetExplorer.java 3361 7 19 0
+CompilationAction 1476881786708 PlanetExplorer.java
+CompilationAction 1476881786708 PlanetExplorer.java
+UnitTestCaseAction 1476881804213 TestPlanetExplorer.java OK
+UnitTestSessionAction 1476881804214 PlanetExplorer.java OK
+EditAction 1476881814654 PlanetExplorer.java 3338 7 21 0
